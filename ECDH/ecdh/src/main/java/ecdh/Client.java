@@ -20,10 +20,10 @@ public class Client {
     private PublicKey serverPublicKey;
 
     // ------------------------- SERVER ADDRESS --------------------------------------
-    private static final String SERVER_ADDRESS = "localhost";
+    // private static final String SERVER_ADDRESS = "localhost";
     // private static final String SERVER_ADDRESS = "3.0.83.180"; // region Sydney
     // private static final String SERVER_ADDRESS = "192.168.2.3"; // Ethernet
-    // private static final String SERVER_ADDRESS = "66.94.113.202"; // VPS
+    private static final String SERVER_ADDRESS = "66.94.113.202"; // VPS
     
     public Client() {
         try {

@@ -16,16 +16,16 @@ import java.util.Scanner;
 public class Client {
 
     // ------------------------- KEYSERVER ADDRESS --------------------------------------
-     private static final String KEY_SERVER_ADDRESS = "localhost";
+    //  private static final String KEY_SERVER_ADDRESS = "localhost";
     //  private static final String KEY_SERVER_ADDRESS = "54.179.162.60"; // region singapore
     //  private static final String KEY_SERVER_ADDRESS = "192.168.2.105"; // Ethernet
-    // private static final String KEY_SERVER_ADDRESS = "66.94.113.202"; // VPS
+    private static final String KEY_SERVER_ADDRESS = "66.94.113.202"; // VPS
 
     // ------------------------- SERVER ADDRESS --------------------------------------
-     private static final String SERVER_ADDRESS = "localhost";
+    //  private static final String SERVER_ADDRESS = "localhost";
     //  private static final String SERVER_ADDRESS = "3.0.83.180"; // Region Tokyo
     //  private static final String SERVER_ADDRESS = "192.168.2.3"; // Ethernet
-    //  private static final String SERVER_ADDRESS = "192.168.1.64"; // Virtual Box
+     private static final String SERVER_ADDRESS = "192.168.1.64"; // Virtual Box
 
     private static final int KEY_SERVER_PORT = 6000;
     private static final int PORT = 6001;
