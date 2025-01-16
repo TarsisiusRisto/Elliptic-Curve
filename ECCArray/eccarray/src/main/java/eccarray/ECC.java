@@ -11,6 +11,8 @@ import java.util.Base64;
 
 import javax.crypto.Cipher;
 
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+
 public class ECC {
 
     static {
