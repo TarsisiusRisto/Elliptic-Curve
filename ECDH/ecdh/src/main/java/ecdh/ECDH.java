@@ -24,7 +24,7 @@ public class ECDH {
     // Method to generate ECC Key Pair
     public KeyPair generateECCKeyPair() throws Exception {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("EC", "BC");
-        keyPairGenerator.initialize(new ECGenParameterSpec("secp256r1")); // Key size can be 256, 384, or 521 bits
+        keyPairGenerator.initialize(new ECGenParameterSpec("secp384r1")); // Key size can be 256, 384, or 521 bits
         return keyPairGenerator.generateKeyPair();
     }
 
