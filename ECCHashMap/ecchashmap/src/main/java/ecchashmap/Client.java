@@ -35,7 +35,7 @@ public class Client {
     public static void main(String[] args) {
         try {
             // Generate key pair
-            keyPair = ECC.generateKeyPair();
+            keyPair = ECC.generateKeyPair();                                                                                                                                                                    
 
             // Store public key in KeyServer
             storePublicKey("Client");
